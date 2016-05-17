@@ -15,6 +15,7 @@
 		CB1D68B51CEABFCF00A08B4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1D68B31CEABFCF00A08B4C /* LaunchScreen.storyboard */; };
 		CB1D68C01CEABFCF00A08B4C /* GoogleMapsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1D68BF1CEABFCF00A08B4C /* GoogleMapsDemoTests.m */; };
 		CB1D68CB1CEABFCF00A08B4C /* GoogleMapsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1D68CA1CEABFCF00A08B4C /* GoogleMapsDemoUITests.m */; };
+		CB1D68D91CEAC06000A08B4C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CB1D68D81CEAC06000A08B4C /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		CB1D68C61CEABFCF00A08B4C /* GoogleMapsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMapsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1D68CA1CEABFCF00A08B4C /* GoogleMapsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleMapsDemoUITests.m; sourceTree = "<group>"; };
 		CB1D68CC1CEABFCF00A08B4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB1D68D81CEAC06000A08B4C /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		CB1D68991CEABFCF00A08B4C = {
 			isa = PBXGroup;
 			children = (
+				CB1D68D81CEAC06000A08B4C /* .gitignore */,
 				CB1D68A41CEABFCF00A08B4C /* GoogleMapsDemo */,
 				CB1D68BE1CEABFCF00A08B4C /* GoogleMapsDemoTests */,
 				CB1D68C91CEABFCF00A08B4C /* GoogleMapsDemoUITests */,
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB1D68D91CEAC06000A08B4C /* .gitignore in Resources */,
 				CB1D68B51CEABFCF00A08B4C /* LaunchScreen.storyboard in Resources */,
 				CB1D68B21CEABFCF00A08B4C /* Assets.xcassets in Resources */,
 				CB1D68B01CEABFCF00A08B4C /* Main.storyboard in Resources */,
@@ -498,6 +502,7 @@
 				CB1D68D11CEABFCF00A08B4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB1D68D21CEABFCF00A08B4C /* Build configuration list for PBXNativeTarget "GoogleMapsDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				CB1D68D41CEABFCF00A08B4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB1D68D51CEABFCF00A08B4C /* Build configuration list for PBXNativeTarget "GoogleMapsDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +520,7 @@
 				CB1D68D71CEABFCF00A08B4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
